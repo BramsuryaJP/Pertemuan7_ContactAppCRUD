@@ -58,7 +58,7 @@ yargs.command({
 // melihat detail contact dari sebuah contact
 yargs.command({
   command: 'detail',
-  describe: 'See Contact Detail Base on Name',
+  describe: `See Contact Detail Base on contact's Name`,
   builder: {
     // data nama
     name: {
@@ -75,7 +75,7 @@ yargs.command({
 // menghapus sebuah contact
 yargs.command({
   command: 'delete',
-  describe: 'Delete a Contact Base on Name',
+  describe: `Delete a Contact Base on Contact's Name`,
   builder: {
     // data nama
     name: {
